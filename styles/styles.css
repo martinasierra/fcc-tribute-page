@@ -4,25 +4,23 @@
     box-sizing: border-box;
   }
 
+  :root {
+    --main-font-stack:  Arial, Helvetica, sans-serif;
+  }
+
   .page-container {
     background-color: #123e63;
   }
 
   .header-container{
-  
       display: flex;
       justify-content: center;
   }
 
   h1 {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: 100px;
-      color: #f85c4d;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
+      color: #D74B3D;
+      font-family: var(--main-font-stack);
   }
 
   .imagen-container {
@@ -30,18 +28,25 @@
     justify-content: center;
   }
 
-  figcaption {
-      font-family: Arial, Helvetica, sans-serif;
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
-  .p .footer 
-  {
-      font-family: Arial, Helvetica, sans-serif;
+  figcaption {
+      color: blanchedalmond;
+      font-family: var(--main-font-stack);
   }
-  .footer {
+
+  .p, .texto-footer {
+    font-family: var(--main-font-stack);
+  }
+
+  .footer-container {
     display: flex;
     justify-content: center;
     background: #30a17b;
-    height: 200px;
     border-color: black;
   }
+
+ 
