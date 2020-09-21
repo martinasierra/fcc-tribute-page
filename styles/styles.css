@@ -8,24 +8,30 @@
     --main-font-stack:  Arial, Helvetica, sans-serif;
   }
 
-  .page-container {
-    background-color: #123e63;
-  }
-
   .header-container{
       display: flex;
       justify-content: center;
+      background-color: #123e63;
   }
 
-  h1 {
-      font-size: 100px;
-      color: #D74B3D;
+h1{
+  font-size: 7rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+  h1,h2 {
+      color: #f15c4e;
       font-family: var(--main-font-stack);
-  }
+    }
+
+    h2{
+      font-size: 2rem;
+    }
 
   .imagen-container {
     display: flex;
     justify-content: center;
+    margin-top: 3px;
   }
 
   img {
@@ -34,18 +40,29 @@
   }
 
   figcaption {
-      color: blanchedalmond;
+      color: grey;
       font-family: var(--main-font-stack);
   }
 
-  .p, .texto-footer {
+  .info {
+   margin: 25px 100px 0px 100px;
+  }
+
+  p {
     font-family: var(--main-font-stack);
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f15c4e;
   }
 
   .footer-container {
     display: flex;
     justify-content: center;
-    background: #30a17b;
+    background:  #30a17b;
     border-color: black;
   }
 
