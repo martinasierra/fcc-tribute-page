@@ -22,4 +22,4 @@ Miércoles 16 de Septiembre (2 semanas)
 - hacer un deploy del proyecto en [Vercel](https://vercel.com/)
 
 
-https://jane-jacobs.vercel.app/
+
