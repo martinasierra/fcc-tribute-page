@@ -4,8 +4,12 @@
     box-sizing: border-box;
   }
 
-  .header-container{
+  .page-container {
     background-color: #123e63;
+  }
+
+  .header-container{
+  
       display: flex;
       justify-content: center;
   }
