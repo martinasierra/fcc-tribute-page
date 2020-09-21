@@ -48,22 +48,28 @@ h1{
    margin: 25px 100px 0px 100px;
   }
 
+ 
   p {
     font-family: var(--main-font-stack);
     font-size: 22px;
     text-align: justify;
+    color: #123e63;
   }
 
   a {
     text-decoration: none;
     color: #f15c4e;
   }
+  
 
   .footer-container {
-    display: flex;
-    justify-content: center;
+    
     background:  #30a17b;
     border-color: black;
   }
 
- 
+  .contacto {
+    font-size: 0.95rem;
+    color: black;
+    text-align: right;
+  }
